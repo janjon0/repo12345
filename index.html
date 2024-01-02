@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+          <form class="form1">
+             <h1>login</h1>
+             <label>username</label>
+             <input type="text" placeholder="username" id="lusername">
+             <br><br><br>
+             <label>password</label>
+              <input type="password" placeholder="password" id="lpassword">
+             <br><br><br>
+            <button type="button" onclick="cli()">login</button>
+              <br>
+             <p>if you dont have an account?</p>
+             <a href="#1"> <BUtton type="button">signup</BUtton></a>
+             <br>
+             <a href="#2"> <BUtton type="button">forget pass</BUtton></a>
+             </form>
+           
+<div id="1" >
+  <form class="form2" >
+    <h1>signup</h1>
+    <label>username</label>
+    <input type="text" placeholder="username" id="Susername">
+    <br><br>
+    <label>EMAIL</label>
+    <input type="text" placeholder="EMAIL" id="email">
+    <br><br>
+    <label>phonenumver</label>
+    <input type="text"  id="phonenum" >
+    <br><br>
+    <label>password</label>
+    <input type="password" placeholder="password" id="spass">
+    <br><br>
+    <label> confirm password</label>
+    <input type="text"  id="confirmpass">
+    <br><br>
+    <h3>gender</h3>
+    <input type="radio" name="radio">femail
+    <input type="radio" name="radio">male
+    <br><br>
+    <h3>age</h3>
+    <input type="number" id="age" >
+    <br><br>
+    <button type="button" onclick="onenterr()">signup</button>
+  </form>
+</div>
+<div id="2">
+<form class="form3">
+    <h1>forget password</h1>
+    <label>username</label>
+    <input type="text" placeholder="username" id="fusername">
+    <br><br><br>
+    <label>password</label>
+     <input type="password" placeholder="password" id="fpassword">
+    <br><br><br>
+   <a href="quiz.html"> <button onclick="clli()">forget password</button></a> 
+     <br>
+    </form>
+</div>
+
+<script src="java.js"></script>
+</body>
+</html>
